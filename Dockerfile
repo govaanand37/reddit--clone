@@ -13,7 +13,7 @@
  RUN npm run build
 
 #exposing port to listen
- EXPOSE 3000
+ EXPOSE 8080
  
 #start server
  CMD [ "npm","start" ]
