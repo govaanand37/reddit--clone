@@ -2,7 +2,7 @@
  FROM node:16-alpine
 
 #Creating a new directory to copy our source code to there
- RUN mkdir -р //usr/src
+ RUN mkdir -p /usr/src
  WORKDIR /usr/src
 
 #Copying the entire source code /usr/app
@@ -16,4 +16,4 @@
  EXPOSE 3000
  
 #start server
- CMD [ "npm","run","start" ]
+ CMD [ "npm","start" ]
